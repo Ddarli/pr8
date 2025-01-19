@@ -7,6 +7,7 @@ import (
 	"github.com/Ddarli/app/shop/internal/service"
 )
 
+// Latyshev IKBO-16-21
 func main() {
 	ctx, cancel := context.WithCancel(context.Background())
 	defer cancel()
